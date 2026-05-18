@@ -1,0 +1,31 @@
+{
+  "name": "slsk-playlist-dl",
+  "version": "0.1.0",
+  "description": "Download Spotify playlists via Soulseek",
+  "type": "module",
+  "bin": {
+    "slsk-playlist-dl": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsx src/index.tsx",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ink": "^5.0.1",
+    "ink-select-input": "^6.0.0",
+    "ink-spinner": "^5.0.0",
+    "ink-text-input": "^6.0.0",
+    "p-limit": "^6.1.0",
+    "react": "^18.3.1",
+    "slsk-client": "^1.0.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "patch-package": "^8.0.1",
+    "tsx": "^4.15.6",
+    "typescript": "^5.4.5"
+  }
+}
